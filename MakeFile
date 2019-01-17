@@ -1,6 +1,6 @@
 README.md: guessinggame.sh
-	echo "## My Guessing Game" > README.md
-	echo "# Date is $$(date)" >> README.md
+	echo "# My Guessing Game" > README.md
+	echo "## Date is $$(date)" >> README.md
 	echo "- $$(cat guessinggame.sh | wc -l)" >> README.md
 clean:
 	touch guessinggame.sh
